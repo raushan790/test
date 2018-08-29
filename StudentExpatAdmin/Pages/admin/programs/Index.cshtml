@@ -1,0 +1,68 @@
+﻿@page
+@model studentexpat.com.Pages.admin.programs.IndexModel
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Programs[0].Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Programs[0].Tuition)
+                </th>
+                <th>
+
+                    @Html.DisplayNameFor(model => model.Programs[0].ShortDesc)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Programs[0].FullDesc)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Programs[0].Language)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Programs[0].ProgramType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Programs[0].School)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Programs) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tuition)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShortDesc)
+            </td>
+            <td>
+                @Html.Raw(item.FullDesc)
+                @Html.DisplayFor(modelItem => item.FullDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Language.Language1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProgramType.ProgramType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.School.Name)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

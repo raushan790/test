@@ -1,0 +1,62 @@
+﻿@page
+@model studentexpat.com.Pages.admin.programs.EditModel
+
+<h1>Programs</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Programs.Id" />
+            <div class="form-group">
+                <label asp-for="Programs.Name" class="control-label"></label>
+                <input asp-for="Programs.Name" class="form-control" />
+                <span asp-validation-for="Programs.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Programs.Tuition" class="control-label"></label>
+                <input asp-for="Programs.Tuition" class="form-control" />
+                <span asp-validation-for="Programs.Tuition" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Programs.ShortDesc" class="control-label"></label>
+                <input asp-for="Programs.ShortDesc" class="form-control" />
+                <span asp-validation-for="Programs.ShortDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Programs.FullDesc" class="control-label"></label>
+                @*<input asp-for="Programs.FullDesc" class="form-control" />*@
+                <textarea asp-for="Programs.FullDesc" class="form-control"></textarea>
+                <span asp-validation-for="Programs.FullDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Programs.Schoolid" class="control-label">School</label>
+                <select asp-for="Programs.Schoolid" class="form-control" asp-items="ViewBag.School"></select>
+                <span asp-validation-for="Programs.Schoolid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Programs.LanguageId" class="control-label">Language</label>
+                <select asp-for="Programs.LanguageId" class="form-control" asp-items="ViewBag.Language"></select>
+                <span asp-validation-for="Programs.LanguageId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Programs.ProgramTypeId" class="control-label">Program Type</label>
+                <select asp-for="Programs.ProgramTypeId" class="form-control" asp-items="ViewBag.ProgramType"></select>
+                <span asp-validation-for="Programs.ProgramTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+}

@@ -1,0 +1,19 @@
+﻿@page
+@model studentexpat.com.Pages.admin.languages.DetailsModel
+
+<div>
+    <h1>Language</h1>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Language.Language1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Language.Language1)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Language.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

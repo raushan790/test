@@ -1,0 +1,48 @@
+﻿@page
+@model studentexpat.com.Pages.admin.subcategories.IndexModel
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Subcategory[0].SubCategoryId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Subcategory[0].Subcategory1)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subcategory[0].Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subcategory[0].Language)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Subcategory) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubCategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subcategory1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Category1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Language.Language1)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

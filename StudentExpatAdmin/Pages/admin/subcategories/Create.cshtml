@@ -1,0 +1,41 @@
+﻿@page
+@model studentexpat.com.Pages.admin.subcategories.CreateModel
+
+<h1>Subcategory</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Subcategory.SubCategoryId" class="control-label"></label>
+                <input asp-for="Subcategory.SubCategoryId" class="form-control" />
+                <span asp-validation-for="Subcategory.SubCategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subcategory.CategoryId" class="control-label"></label>
+                <select asp-for="Subcategory.CategoryId" class ="form-control" asp-items="ViewBag.Category"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subcategory.Subcategory1" class="control-label"></label>
+                <input asp-for="Subcategory.Subcategory1" class="form-control" />
+                <span asp-validation-for="Subcategory.Subcategory1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subcategory.Languageid" class="control-label"></label>
+                <select asp-for="Subcategory.Languageid" class ="form-control" asp-items="ViewBag.Language"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
