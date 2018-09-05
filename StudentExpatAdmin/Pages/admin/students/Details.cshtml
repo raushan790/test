@@ -1,0 +1,74 @@
+﻿@page
+@model studentexpat.com.Pages.admin.students.DetailsModel
+
+<div>
+    <h1>Students</h1>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.Lastname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.Lastname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.Nationalityid)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nationality.Nationality1)
+            @*@Html.TextBox("Nationality", (string)@ViewBag.Nationality, new { @readonly = true })*@
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.CurrentStudent)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.CurrentStudent)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.TotalTuition)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.TotalTuition)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.TotalCommision)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.TotalCommision)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.FollowUp)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.FollowUp)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Students.LastEnrollment)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Students.LastEnrollment)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Students.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

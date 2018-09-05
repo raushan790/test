@@ -1,0 +1,67 @@
+﻿@page
+@model studentexpat.com.Pages.admin.enrolments.DetailsModel
+
+<div>
+    <h1>Enrollments</h1>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Tuition)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Tuition)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Comission)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Comission)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Comments)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Comments)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Followup)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Followup)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Agent)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Agent)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.DatePaid)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.DatePaid)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Program)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Program.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments.Student)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enrollments.Student.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Enrollments.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
