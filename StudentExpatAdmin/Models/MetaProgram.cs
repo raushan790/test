@@ -18,8 +18,11 @@ namespace studentexpat.com.Models
             public string ShortDesc { get; set; }
             [Display(Name = "Full Description")]
             public string FullDesc { get; set; }
+            [Display(Name = "School Name")]
             public int? Schoolid { get; set; }
+            [Display(Name = "Language Id")]
             public int? LanguageId { get; set; }
+            [Display(Name = "Program Type Name")]
             public int? ProgramTypeId { get; set; }
             [Display(Name = "Program Type")]
             public ProgramTypes ProgramType { get; set; }

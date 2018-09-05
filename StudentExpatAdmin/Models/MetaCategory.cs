@@ -12,10 +12,11 @@ namespace studentexpat.com.Models
         {
             [Key]
             public int Id { get; set; }
-            [Display(Name = "Category Id")]
-            public int? CategoryId { get; set; }
             [Display(Name = "Category")]
+            public int? CategoryId { get; set; }
+            [Display(Name = "Category Name")]
             public string Category1 { get; set; }
+            [Display(Name = "Language")]
             public int? Languageid { get; set; }
         }
     }

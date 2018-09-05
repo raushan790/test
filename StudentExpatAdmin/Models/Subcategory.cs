@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace studentexpat.com.Models
 {
@@ -10,7 +9,7 @@ namespace studentexpat.com.Models
         {
             ProgramCategories = new HashSet<ProgramCategories>();
         }
-        [Key]
+
         public int Id { get; set; }
         public int? SubCategoryId { get; set; }
         public int? CategoryId { get; set; }

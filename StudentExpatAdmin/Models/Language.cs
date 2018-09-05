@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace studentexpat.com.Models
 {
@@ -13,7 +12,7 @@ namespace studentexpat.com.Models
             SchoolType = new HashSet<SchoolType>();
             Subcategory = new HashSet<Subcategory>();
         }
-        [Key]      
+
         public int Id { get; set; }
         public string Language1 { get; set; }
 

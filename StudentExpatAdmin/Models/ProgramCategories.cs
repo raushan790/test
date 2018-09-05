@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace studentexpat.com.Models
 {
     public partial class ProgramCategories
     {
-        [Key]
         public int Id { get; set; }
         public int? ProgramId { get; set; }
         public int? SubcatId { get; set; }

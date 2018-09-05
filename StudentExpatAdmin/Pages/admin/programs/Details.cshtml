@@ -27,25 +27,25 @@
             @Html.DisplayNameFor(model => model.Programs.FullDesc)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Programs.FullDesc)
+            @Html.Raw(@Model.Programs.FullDesc)
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Programs.Language)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Programs.Language.Id)
+            @Html.DisplayFor(model => model.Programs.Language.Language1)
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Programs.ProgramType)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Programs.ProgramType.Id)
+            @Html.DisplayFor(model => model.Programs.ProgramType.ProgramType)
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Programs.School)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Programs.School.Id)
+            @Html.DisplayFor(model => model.Programs.School.Name)
         </dd>
     </dl>
 </div>
