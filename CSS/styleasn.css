@@ -1,0 +1,49 @@
+
+/* CSS Document */
+
+
+
+.name
+{
+font-size:13px;
+font-family:Courier New,Verdana;
+color:Black;
+
+}
+
+.btnlogin 
+{
+	
+	background-color:Transparent;
+	background:url(../Images/LoginButton.png);
+	margin:0;
+	padding:0;
+	height:20px;
+	cursor:pointer;
+	width:63px;
+	border:none;
+
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	/*color:#FF510A;*/
+	color:#000080;
+}
+			/*-------------------------------- */
+.heading
+{
+	
+	
+    FONT: bold  14px Helvetica, sans-serif,Verdana, Arial;
+    COLOR: Maroon;
+    text-indent:4px;
+}
+
+.dropShadowPanel 
+{	
+	width:300px;	
+	/*background-color:#d3d3d3;		*/
+	background-color:Silver;
+	color:white;
+	font-weight:bold;		
+}

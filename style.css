@@ -1,0 +1,111 @@
+#menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 774px;
+	height: 50px;
+	/*background: url(images/menu-bg.jpg) no-repeat;*/
+	position: relative;
+}
+#menu span {
+	display: none;
+	position: absolute;
+}
+#menu a {
+	display: block;
+	text-indent: -900%;
+	position: absolute;
+	outline: none;
+}
+#menu a:hover {
+	background-position: left bottom;
+}
+#menu a:hover span{
+	display: block;
+}
+#menu .home {
+	width: 120px;
+	height: 40px;
+	background: url(images/home.png) no-repeat;
+	left: 166px;
+	top: 12px;
+}
+#menu .home span {
+	width: 86px;
+	height: 40px;
+	background: url(images/home-over.png) no-repeat;
+	left: 8px;
+	top: -40px;
+}
+#menu .about {
+	width: 130px;
+	height: 40px;
+	background: url(images/Admin.png) no-repeat;
+	left: 295px;
+	top: 12px;
+}
+#menu .aboutml {
+	width: 120px;
+	height: 40px;
+	background: url(images/Student.png) no-repeat;
+	left: 295px;
+	top: 12px;
+}
+#menu .about span {
+	width: 86px;
+	height: 40px;
+	background: url(images/about-over.gif) no-repeat;
+	left: 8px;
+	top: -40px;
+}
+#menu .rss {
+	width: 130px;
+	height: 40px;
+	background: url(images/Academic.png) no-repeat;
+	left: 425px;
+	top: 12px;
+}
+#menu .rssml {
+	width: 120px;
+	height: 40px;
+	background: url(images/Employee.png) no-repeat;
+	left: 425px;
+	top: 12px;
+}
+#menu .rss span {
+	width: 86px;
+	height: 40px;
+	background: url(images/Academic-over.gif) no-repeat;
+	left: 8px;
+	top: -40px;
+}
+#menu .finance {
+	width: 130px;
+	height: 40px;
+	background: url(images/Finance.png) no-repeat;
+	left: 555px;
+	top: 12px;
+}
+#menu .finance span {
+	width: 86px;
+	height: 40px;
+	background: url(images/Finance-over.gif) no-repeat;
+	left: 8px;
+	top: -40px;
+}
+#menu .Logout {
+	width: 100px;
+	height: 30px;
+	background: url(images/LogoutOLD.jpg) no-repeat;
+	left: 720px;
+	top: 12px;
+	
+	
+}
+#menu .School {
+	width: 150px;
+	height: 94px;
+	background: url(images/inventure_small.jpg) no-repeat;
+	
+	left: 1px;
+	top:1px;

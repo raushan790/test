@@ -1,0 +1,275 @@
+
+/* CSS Document */
+
+html {padding:0;margin:0;}
+
+
+
+.maincontainer { width:100%!important;height:auto;margin:auto;padding:auto;  }
+.headerSection{ height:128px; width:100%; background:url(../Images/top_bg.png) no-repeat;}
+.logo{height:128px; width:130px; margin-left:18px; float:left;}
+.rightHead_sec{ height:auto; width:228px; float:right; }
+.logo_cont{ width:550px; height:128px;}
+.school_name{ height:32px; width:381px; float:right; margin-top:30px;}
+.txtanim{ height:32px; width:228px; float:right; margin:5px 0 10px 5px;}
+
+
+
+.mytxtclock {font-family: Arial;font-size:12px;font-weight: normal;color:#000000;padding-top: 5px; float:right; margin:50px 25px  0 5px; height:15px; width:200px; color:#FFFFFF;}
+
+
+.menuContainer{width:988px; height:29px; margin:0 5px 0 5px;}
+.menu{width:900px;  margin:auto; height:24px;  }
+
+
+.leftbox{ padding:8px 5px 0 5px;}
+.title_brown{font-size:14px; color:#000000; font-weight:800; background:url(../Images/red_icon.gif) left no-repeat; height:20px;}
+.title_wht{font-size:14px; color:#ffffff; font-weight:800; background:url(../Images/red_icon.gif) left no-repeat; height:20px;}
+.title_red{font-size:14px; color:#970000; font-weight:800; background:url(../Images/red_icon.gif) left no-repeat; height:20px; margin-left:4px;}
+
+
+
+.mid_content_mid{height:auto; width:100%; }
+.title{ height:30px; width:100%; color:#740000; font-size:20px; background:url(../Images/title_bg.gif) ; }
+.subtitle{ height:30px; width:476; color:#333333; font-size:16px; background:url(../Images/title_bg.gif) no-repeat; font-weight:700;}
+
+.txt_black{ padding:5px; line-height:15px; text-align:justify; color:#000000;}
+.txt_black a{ padding:5px; line-height:15px; text-align:justify; color:#000000;}
+.txt_black a:hover{ padding:5px; line-height:15px; text-align:justify; color:#000000; text-decoration:underline;}
+
+
+
+.more {float:right;width:46px; background:url(../Images/more_bg.gif) no-repeat; margin:2px; }
+.more a{text-decoration:none;color:#CC0000}
+.more a:hover{text-decoration:none;color:#CC0000; text-decoration:underline; background:url(../Images/more_bg_hov.gif) no-repeat;}
+
+.txt{ color: #333333; line-height:15px; }
+
+
+
+
+
+
+.login_top{ height:5px; width:228px; }
+.login_mid{ height:140px; width:228px; background:url(../Box/login_mid.gif) repeat-y;}
+
+.login_box{width:228px; height:auto; }
+
+.log_top{ height:34px; width:228px; background:url(../Images/log_top2.png)  no-repeat;}
+.log_mid{ height:auto; width:228px; background: url(../Box/log_mid.png);}
+.log_bot{ height:5px; width:228px; background: url(../Box/log_bot.gif) no-repeat;}
+
+
+.right_Container{ height:auto; width:228px; padding-right:5px; float:right; }
+.newbox{ width:228px; height:150px; padding:0; margin:0;}
+.newbox_top{ height:5px; width:228px; margin:0; padding:0;}
+.newbox_mid{ background:url(../Box/box_r_mid.gif) repeat-y;  width:228px;}
+.newbox_bot{ height:5px; width:228px; margin:0; padding:0; background:url(../Box/box_r_bot.gif) no-repeat;}
+
+
+.nos{ color:#FFDB91; font-family:"Arial Narrow"; font-size:16px;  background:url(../Images/tele.png) left no-repeat; padding:4px 0 0 30px; font-weight:bold;}
+
+.title_white{font-size:14px; color:#ffffff; font-weight:700; height:20px; margin-left:4px; background:url(../Images/redbull2.png) no-repeat;}
+
+
+.title_red{font-size:14px; color:#970000; font-weight:800; background:url(../Images/red_icon.gif) left no-repeat; padding:4px 0 0 24px; height:20px; margin-left:4px;}
+.ticker_box{ height:24px; width:240px; float:left; margin:10px 0  0 0px;}
+
+.footerContainer{ background:url(../Images/footer_bg.gif) repeat-x; height:50px;width:998px;color: #000000;}
+footerlinks{color:#333333;padding-top:10px;text-decoration:none;text-align:center;height:36px;}
+.footerlinks a {color:#000000;padding:3px;text-decoration:none;text-align:center; margin-top:10px;}
+
+.footerlinks a:hover{color:#990000;padding:3px;text-align:center;text-decoration:underline;  margin-top:10px;}
+
+
+
+
+.comptext {float:right;margin-right:12px;padding-top:10px;color:#000000;}
+.vtext {float:left;margin-left:12px;padding-top:10px;color:#000000;}
+
+.linkyello, a.linkyello:Link{padding:5px 0 5px 0;color:#000000;text-align:left;padding-top:5px;text-decoration:none;}
+a.linkyello:Hover{color:#990000;text-align:left;padding:5px 0 5px 0;text-decoration:underline;}
+
+.linkWht, a.linkWht:Link{padding:60px 20px 5px 60px;color:#FFFFFF;text-align:right;padding-top:5px;text-decoration:none;}
+a.linkWht:Hover{color: #990000;text-align:right;padding:60px 20px 5px 60px;text-decoration:underline;}
+.linkWhtNew, a.linkWhtNew:Link{padding:5px;color:#000000;text-align:right;padding-top:5px;text-decoration:none;}
+a.linkWhtNew:Hover{color:#69A736;text-align:right;padding:5px;text-decoration:underline;}
+
+
+
+
+
+
+
+.loginCont {
+width:228px;
+height:auto;
+
+
+}
+.login-icon{
+padding:4px 0 0 4px;
+
+} 
+
+.login{
+height:20px;
+width:200px;
+
+} 
+
+.login_input{
+	font-size:11px;
+	font-weight:normal;
+	color:#565656;
+	width: 120px;
+	height:15px;
+	
+}
+
+.pass_input{
+	font-size:11px;
+	font-weight:normal;
+	color:#565656;
+	width: 150px;
+	height:15px;
+	
+}
+.box{
+	font-size:11px;
+	font-weight:normal;
+	color: #fff;
+	width: 150px;
+	height:12px;
+	
+}
+.green_but{
+	font-weight:bold;
+	color:#ffffff;
+	height:24px;
+	width:70px;
+	background:url(../Images/login.png) no-repeat;
+	text-align:center;	
+
+}
+
+.but, a.link:Link,a.link:Visited
+{
+	font-weight:bold;
+	color:#000000;
+	padding:5px 0 0 5px;
+	text-decoration:none;
+	
+}
+
+a.but:Hover{
+	font-weight:bold;
+	color: #990000;
+	padding:5px 0 0 5px;
+	text-decoration:none;
+}
+.forgot
+{
+	font-weight:bold;
+	font-size:12px;
+	width:auto;
+	color:White;
+	width:auto;
+	font-family:Arial, Sans-Serif;
+}
+
+.linkGreen, a.linkGreen:Link,a.linkGreen:Visited{
+color:#ffffff;
+font-size:11px;
+text-decoration:none;
+}
+
+a.linkGreen:Hover{
+color:#FFFFFF;
+font-size:11px;
+text-decoration:underline;
+}
+.linkBlack, a.linkBlack:Link,a.linkBlack:Visited{
+color: #999999;
+font-size:11px;
+text-decoration:none;
+padding-left:10px;
+}
+
+a.linkBlack:Hover{
+color:#ffffff;
+font-size:11px;
+padding-left:10px;
+text-decoration:underline;
+}
+
+.ImgStuPhoto
+{
+	position:relative;
+	z-index:500;
+}
+
+
+
+
+.linkBlue, a.linkBlue:Link
+{
+
+color: #333333;
+text-align:left;
+font-family:@Arial Unicode MS;
+font-size:8pt;
+font-weight:normal;
+text-decoration:none;
+}
+
+a.linkBlue:Hover
+{
+    
+color:#FC6906;
+text-align:left;
+font-family:@Arial Unicode MS;
+font-size:8pt;
+font-weight:bold;
+text-decoration:underline;
+}
+
+.left_box_mid{ height:auto; width:197px; padding:0; margin:0; background: url(../Images/left_box_mid.jpg) ;}
+.online_app {padding:0; margin:0;}
+.online_app ul {padding:0; margin:0; list-style:none;}
+.online_app ul li {background: url(../Images/bull.gif) left no-repeat; padding:2px 0 2px 12px; width:auto; color: #000000; margin-left:10px;}
+.online_app ul li a {display:block;color:#000000;padding-top:2px;text-decoration:none;}
+.online_app li a:hover {text-decoration:none;padding-top:2px;color: #FF0000;text-decoration:underline;}
+
+.content11 {
+	FONT-SIZE: 10pt; COLOR: #676767; FONT-FAMILY: verdana,tahoma,geneva,arial,helvetica,sans-serif; 
+}
+.style8 
+{	font-family: verdana, tahoma, geneva, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.style5 {font-size: 11px;
+	color: #944908;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	border-style:solid;
+	border-width:2px;
+	
+}
+.style6 {font-size: 10px;
+	font-weight: bold;
+	color: #31618C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	border-style:solid;
+	border-width:2px;
+}
+.style12 
+{	font-family: verdana, tahoma, geneva, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #39638D;
+	text-decoration:none;
+}

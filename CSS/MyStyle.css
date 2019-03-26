@@ -1,0 +1,678 @@
+﻿.BodyBackGroupColor{background-color: #CEDDC0;background-image: url(Images/backgroundImg1.jpg); background-repeat: repeat;background-position: center center; background-attachment: scroll;}
+.lnkButtonStyle{border-style: solid; border-width: 1px; background-image: url(../Images/AKside.jpg);background-repeat: repeat-y; border-color: #AFD19E; height: 25px;text-align:left;}
+.lnkButtonStyle a{color:#33331A;text-decoration: none;padding-left:7px; text-align: left;font-weight:bold;font-size:smaller;width:116px;}
+.lnkButtonStyle a:hover{color:Red;}
+.PageMenuHeadTitle{ background-image: url(../Images/AKside.jpg);background-repeat: repeat-y;font-weight: bold; color: #33331A; font-style: normal; text-align: left;padding-left:12px;height: 41px; font-size: 17px; border-width: 2px; border-style: solid; border-color: #AFD19E;}
+.DivRadius{position: relative;background: #ceddc0;-moz-border-radius: 2px;border-radius: 5px;padding: .3em .3em;color: rgba(0,0,0, .8);line-height: 1;margin: 5px auto;width: 96%;box-shadow: 1px 1px 15px rgba(10,150,0,0.7);}
+.MyLabel
+{
+	font-size: 8pt;
+	font-family: Arial;
+}
+.MyLabelA
+{
+	font-size: 8pt;
+	font-style: italic;
+	color:Gray;
+	font-weight: lighter;
+}
+.MyText
+{font-size :8pt;
+	FONT-FAMILY: Arial;
+	/*border-color:#8CDAFF;*/
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+	
+	 
+}
+.MyFileUpload
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial;
+    background-color:Transparent;
+    border-style:hidden;
+    border-width:0px;
+    color:Blue;
+    elevation:higher;
+    text-decoration:underline;
+}
+
+.MyDynamicText
+{
+    font-size :8pt;
+	FONT-FAMILY: Arial;
+	border-width:0px;
+	background-color:Transparent;
+	
+}
+
+/*
+.MyButton
+{font-size :8pt;	
+background-color:#faf0e6;
+border-color:InactiveCaption;
+FONT-FAMILY:arial;
+border-width:1px;
+width:72px;
+height:18px;
+COLOR:#400000;	
+FONT-WEIGHT: bold;
+background:url(../Images/2tab_tile1.gif);
+text-align:center;
+}
+*/
+
+.MyButtonForm
+{font-size :10pt;	
+/*background-color:#faf0e6;*/
+background-color:#faf0e6;
+border-color:InactiveCaption;
+FONT-FAMILY:arial;
+border-width:1px;
+width:75px;
+height:20px;
+COLOR:#400000;	
+FONT-WEIGHT: bold;
+background:url(../Images/2tab_tile1.gif);
+text-align:center;
+}
+.CalenderButtonUP
+{font-size :8pt;
+border-color:InactiveCaption;
+FONT-FAMILY:arial;
+border-width:1px;
+width:15px;
+height:10px;
+COLOR:#400000;	
+FONT-WEIGHT: normal;
+background-image :url(../Images/Up.JPG);
+text-align:center;
+background-repeat:inherit;
+}
+.CalenderButtonDOWN
+{font-size :8pt;
+border-color:InactiveCaption;
+FONT-FAMILY:arial;
+border-width:1px;
+width:15px;
+height:10px;
+COLOR:#400000;	
+FONT-WEIGHT: normal;
+background-image:url(../Images/Down.JPG);
+background-repeat:inherit;
+text-align:center;
+}
+
+.MyTableHead
+
+{ 	
+	FONT-FAMILY: arial;
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	border:1px;
+    border-color: #8CDAFF;
+    background: url(../Images/tab_inactive.jpg) repeat;
+    text-align:center;
+	COLOR:#400000;	
+	height:18px;
+	
+}
+
+
+tr.MyGridViewAlternate
+{
+	FONT-FAMILY: arial;
+	font-size :8pt;
+	FONT-WEIGHT:normal;
+	background-color:activeborder;
+	COLOR:#400000;
+	
+}
+tr.MyGridViewAlternate:hover
+{
+	background-color:#ffe633;
+}	
+.MyGridViewHeader
+{
+	FONT-FAMILY: arial;
+	font-size : 8pt;
+	background: url(../Images/top_leftbg.png) repeat;
+	border-width: 1px;
+    border-color: ActiveBorder;
+	/*COLOR: #000099;*/
+	color:White;
+}
+
+
+tr.MyGridViewRow
+{
+	FONT-FAMILY: arial;
+	font-size :8pt;
+	background:#EBEBEB;
+	COLOR:#400000;
+	height:15px;
+	/*onmouseover:this.style.backgroundColor='#ffe633';
+	onmouseout:this.style.backgroundColor='#EBEBEB';*/
+}
+tr.MyGridViewRow:hover
+{
+	background-color:#ffe633;
+}	
+.MyAjaxTextColor
+{background:#ffffcc;
+	color:Gray ;
+}
+.MySelect
+{
+	font-size : 8pt;
+	FONT-WEIGHT: normal;
+	FONT-FAMILY: Courier New;
+	
+}
+.CalendarStyle
+{
+	position: relative;
+	z-index: 999999;
+	border-style: solid;
+	border-color: Maroon;
+	background-position: inherit;
+	background-color: Yellow;
+}
+
+.MyCalendarStyle .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color: lemonchiffon;
+    color: red;
+    position: absolute;
+    z-index: 100;
+}
+.MyCalendarStyle .ajax__calendar_other .ajax__calendar_day,
+.MyCalendarStyle .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+.MyCalendarStyle .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendarStyle .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendarStyle .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight:bold;
+}
+
+#tooltip
+ {
+  position: absolute;
+  display:none;
+  padding:1px 2px 1px 2px;
+  color: Highlight;
+  background-color: Yellow;
+  border-color: #BBFFFF;
+  border-width: 1px;
+  border-style: solid; 
+  font-size :8pt;
+  FONT-FAMILY: Arial;
+ }
+
+.dropDownWidth
+ {
+ width:60px;
+ }
+.CalendarImage
+{
+	height:14pt;
+	width:14pt;
+}
+.divImageStyle
+{
+	border-color:Black;
+	border-width: 1px;
+	border-style: solid;
+	height: 140px;
+	width: 140px;
+	overflow:hidden;
+	
+}
+.EmptyDataStyle
+{
+	font-family:Verdana;
+	font-size : 9pt;
+	font-weight:bold;
+	font-style:normal;
+	text-align:center;
+	background:#EBEBEB;
+	color:#804000;
+}
+.MyGridViewFooter
+{
+	FONT-FAMILY: arial;
+	font-size : 8pt;
+	background: url(../Images/top_leftbg.png) repeat;
+	border-width: 1px;
+    border-color: ActiveBorder;
+	color:White;
+	font-weight:bold;
+}
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.FocusText
+{
+	background-color:#FFFFCC;
+	font-size :8pt;
+	FONT-FAMILY: Arial;	
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+.MyBackground
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:#0066ff;	
+	background-color:#f8faff;
+	/*background-color:#f4f7ff;	*/
+}
+.ModalPopup
+{
+    background-color:#BCE0F8;
+    border-color:Blue;
+    border-style:solid;
+    border-width:1px;
+    
+}
+.MyLabelText
+{
+	font-size: 7pt;
+	font-family: Arial;
+	font-weight:bold;
+}
+.MyLinkButton
+{font-size :8pt;	
+background-color:#faf0e6;
+border-color:InactiveCaption;
+FONT-FAMILY:arial;
+border-width:1px;
+width:72px;
+height:18px;
+COLOR:#400000;	
+FONT-WEIGHT: bold;
+background:url(../Images/BK3.jpg);
+text-align:center;
+}
+.MyPLGrid
+{FONT-STYLE:italic;
+ FONT-SIZE: 9pt;
+ border:1px;
+ border-color:Blue;
+ 
+	
+}
+.MyPLGridHeader
+{FONT-STYLE:italic;
+ background-color:Silver;
+ font-weight:bold;
+ font-size : 10pt;
+}
+.MyPLButton
+{background-color:Transparent;
+
+	
+}
+.MyPLLink
+{
+background-color:#F2E625;
+
+   
+
+}
+.MyPLHeadLabel
+{
+	font-size: 8pt;
+	font-family: Arial;
+	font-style:italic;
+	font-weight:bold;
+	color:Black
+
+}
+.MyHeadLabel
+{
+	font-size: 8pt;
+	font-family: Arial;
+	font-weight:bold;
+	color:Black
+
+}
+.MyPLLabel
+{
+	font-size: 8pt;
+	font-family: Arial;
+	font-style:italic;
+	color:Black
+}
+.MyPLLinkBtn
+{
+
+   font-size:small;
+    color:Black;
+
+}
+
+.MyButtonFA
+{font-size :8pt;	
+background-color:#faf0e6;
+border-color:InactiveCaption;
+FONT-FAMILY:arial;
+border-width:1px;
+height:18px;
+COLOR:#400000;	
+FONT-WEIGHT: bold;
+background:url(../Images/2tab_tile1.gif);
+text-align:center;
+}
+input.TxtBox 
+{
+	border:1px solid #c4c4c4;
+	width:180px;
+	height:12px;
+	font-size:11px;
+	padding:4px 4px 4px 4px;
+	border-radius:4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	box-shadow: 0px 0px 8px #d9d9d9;
+	-moz-box-shadow:0px 0px 8px #d9d9d9;
+	-webkit-box-shadow:0px 0px 8px #d9d9d9;
+} 
+input.TxtBox:focus
+{
+	outline:none;
+	border:1px solid #ffb84d;
+	box-shadow:0px 0px 8px #ffb84d;
+	-moz-box-shadow::0px 0px 8px #ffb84d;
+	-webkit-box-shadow::0px 0px 8px #ffb84d;
+}
+input.loginButton
+{
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);
+	
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);
+	
+	background-image: -o-linear-gradient(top,#FFFFFF 0%,#f8b64b 100%);
+	
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1,#f8b64b));
+	
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);
+	
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #f8b64b 100%);
+	
+	
+	color:Blue;
+	width:50px;
+	height:25px;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 10px rgba(248,182,75,0.7);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(248,182,75,0.7);           	
+    transition: width 1s, height 1s, box-shadow 1s, color 1s;
+    -webkit-transition: width 1s, height 1s,  box-shadow 1s, color 1s;
+    -o-transition-property: width 1s, height 1s, box-shadow 1s, color 1s;
+    -o-transition-duration:1s; 
+    
+}    
+input.loginButton:hover
+{
+	-moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 20px rgba(255,0,0,0.7);
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(255,0,0,0.7);           	
+    
+    width: 90px;
+    height: 30px;
+    color:Red;
+    /*
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform:rotate(360deg);
+     */
+    
+}
+.MyWebImage
+{
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);background-image: -moz-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);background-image: -o-linear-gradient(top,#FFFFFF 0%,#f8b64b 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1,#f8b64b));background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #f8b64b 100%);color:#CC6600;font-size :8pt;FONT-WEIGHT: bold;text-align:center;	
+    -moz-border-radius: 5px;-moz-box-shadow: 1px 1px 10px rgba(248,182,75,0.7);border-radius: 5px;box-shadow: 1px 1px 10px rgba(248,182,75,0.7);
+    transition: width 1s, height 1s, box-shadow 1s, color 1s;-webkit-transition: width 1s, height 1s,  box-shadow 1s, color 1s;
+    -o-transition-property: width 1s, height 1s, box-shadow 1s, color 1s;-o-transition-duration:1s; 
+}
+.MyWebImage:hover{cursor:pointer;-moz-border-radius: 5px;-moz-box-shadow: 1px 1px 20px rgba(255,0,0,0.7);border-radius: 5px;box-shadow: 1px 1px 20px rgba(255,0,0,0.7);color:Red;}
+input.MyButton {
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);
+    background-image: -o-linear-gradient(top,#FFFFFF 0%,#f8b64b 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1,#f8b64b));
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #f8b64b 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #ecfbf6 100%);
+    color: #CC6600;
+    font-size: 8pt;
+    width: 72px;
+    height: 20px;
+    FONT-WEIGHT: bold;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 10px rgba(248,182,75,0.7);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(248,182,75,0.7);
+    transition: width 1s, height 1s, box-shadow 1s, color 1s;
+    -webkit-transition: width 1s, height 1s, box-shadow 1s, color 1s;
+    -o-transition-property: width 1s, height 1s, box-shadow 1s, color 1s;
+    -o-transition-duration: 1s;
+}
+input.MyButton:hover
+{
+	-moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 20px rgba(255,0,0,0.7);
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(255,0,0,0.7);           	
+    
+    width: 72px;
+    height: 20px;
+    color:Red;
+}
+input.MyButton:disabled
+{
+	color:Gray;
+}
+.divPopUp{width:500px;height:350px;border:1px solid #fff;display: block;position: absolute;z-index: 1002;border-radius: 10px;background: #ceddc0;color: rgba(0,0,0, .8);line-height: 1;margin: 0px auto;font-size: 11px;-moz-border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 2px;border-radius: 5px;padding: .5em .9em;-webkit-border-radius: 2px auto;}/*box-shadow: 0px 0px 10px rgba(10,150,0,0.7);-moz-box-shadow: 0px 0px 10px rgba(10,150,0,0.7);-webkit-box-shadow: 0px 0px 10px rgba(10,150,0,0.7);box-shadow: 1px 1px 15px rgba(10,150,0,0.7);background: #ceddc0;*/
+.divPopupContent{float: left; padding-left: 10px; padding-top: 2px; font-weight: bold;width:88%;}
+.divPopUpClose{float:right;width: 30px;height: 20px;font-style: normal; color: white; font-weight: bold;padding-right:2px;padding-top: 2px;font-size:12px;}
+.divPopUpClose a{width: 30px; padding-top: 2px; padding-right: 2px;height: 16px; font-size: 16px; font-style: normal; color: white; font-weight: bold;text-decoration:none;}
+.divPopUpClose:hover{background-color:#800000;-moz-box-shadow: 1px 1px 20px #800000;-webkit-box-shadow: 1px 1px 20px #800000;box-shadow: 1px 1px 20px #800000;}
+.divPopUpClose a:hover{color:white;}
+
+.lnkplLibrarytr{background-image: url(../Images/ParentLog.gif); background-repeat: repeat-x;height: 25px;}
+.lnkplLibrary{font-size: small;color: #33331A;text-decoration: none;font-family: Times New Roman;font-weight: bold;background-color: transparent;border:0;}
+.lnkplLibrary a{font-size: small;color: #33331A;text-decoration: none;font-family: Times New Roman;font-weight: bold;}
+.lnkplLibrary a:hover{color: #0099CC;}
+        
+.lnkplLibraryActive{font-size: small;color: #0099CC;text-decoration: none;font-family: Times New Roman;font-weight: bold;background-color: transparent;border:0;}        
+.lnkplLibraryActive a{font-size: small;color: #0099CC;text-decoration: none;font-family: Times New Roman;font-weight: bold;}
+
+.lnkplDiarytr{background-image: url(../Images/ParentLog.gif); background-repeat: repeat-x;height: 25px;}
+.lnkplDiary{width: 170px;height: 26px;text-align: center;padding-right:0px;  text-align:center; color:black;font-weight:normal;font-style:normal }/*font-size: small;color: #33331A;text-decoration: none;font-family: Times New Roman;font-weight: bold;background-color: transparent;border:0;*/
+.lnkplDiary a{color: black;text-decoration: none;width: 165px;font-weight:normal;font-style:normal;}
+.lnkplDiary a:hover{color: #0099CC;}
+        
+.lnkplDiaryActive{ border-bottom:2px solid #0099CC;padding-right:0px;   text-align:center; width: 170px;height: 26px;text-align: center;padding-right:0px;  text-align:center; color:black;font-weight:normal;font-style:normal}        
+.lnkplDiaryActive a{color:#0099CC;font-weight:bold;font-style:normal;text-decoration: none;width: 165px;}
+              
+       
+.divAni
+{
+    width:50px;
+    height:50px;
+    background:red;
+    position:relative;
+    
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 10px rgba(51,153,255,0.7);
+    
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(51,153,255,0.7); 
+    
+    -webkit-border-radius:5px;
+    -webkit-box-shadow:: 1px 1px 10px rgba(51,153,255,0.7); 
+    
+    
+    animation-name:myfirst;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+        	
+    -webkit-animation-name:myfirst;
+    -webkit-animation-duration:5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+        	
+}
+@keyframes myfirst
+{
+    0% {background:red; left:0px; top:0px;}
+    25% {background:yellow; left:300px; top:0px;}
+    50% {background:blue; left:300px; top:200px;}
+    75% {background:green; left:0px; top:200px;}
+    100% {background:red; left:0px; top:0px;}
+}
+    @-webkit-keyframes myfirst
+{
+    0% {background:red; left:0px; top:0px;}
+    25% {background:yellow; left:300px; top:0px;}
+    50% {background:blue; left:300px; top:200px;}
+    75% {background:green; left:0px; top:200px;}
+    100% {background:red; left:0px; top:0px;}
+}
+
+.divAniSecond
+{
+    width:50px;
+    height:50px;
+    background:red;
+    position:relative;
+    
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 20px rgba(51,153,255,0.7);
+    
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(51,153,255,0.7); 
+    
+    -webkit-border-radius:5px;
+    -webkit-box-shadow:: 1px 1px 20px rgba(51,153,255,0.7); 
+    
+    animation-name:myfirstsecond;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-play-state:running;
+        	
+    -webkit-animation-name:myfirstsecond;
+    -webkit-animation-duration:5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate-reverse;
+    -webkit-animation-play-state:running;
+        	
+}
+@keyframes myfirstsecond
+{
+    0% {background:red; left:150px; top:250px;}
+    25% {background:yellow; left:450px; top:250px;}
+    50% {background:blue; left:450px; top:450px;}
+    75% {background:green; left:150px; top:450px;}
+    100% {background:red; left:150px; top:250px;}
+}
+    @-webkit-keyframes myfirstsecond
+{
+    0% {background:red; left:250px; top:250px;}
+    25% {background:yellow; left:550px; top:250px;}
+    50% {background:blue; left:550px; top:450px;}
+    75% {background:green; left:250px; top:450px;}
+    100% {background:red; left:250px; top:250px;}
+}
+
+
+.divRT
+{	    
+    position:relative;
+    
+   /* -moz-border-radius: 15px;
+    -moz-box-shadow: 1px 1px 50px rgba(51,153,255,0.7);
+    
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px rgba(51,153,255,0.7); 
+    
+    -webkit-border-radius:15px;
+    -webkit-box-shadow:: 1px 1px 50px rgba(51,153,255,0.7); 
+    */
+    
+    
+    
+    
+    
+    animation-name:myRT;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+        	
+    -webkit-animation-name:myRT;
+    -webkit-animation-duration:5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+    
+        	
+}
+
+@keyframes myRT
+{
+	 0% {color:red; opacity:0; letter-spacing:0px; font-size:large;}
+    25% {color:yellow; opacity:1; letter-spacing:10px; font-size:large;}
+    50% {color:blue; opacity:0; letter-spacing:20px; font-size:x-large;}
+    75% {color:green; opacity:1; letter-spacing:30px; font-size:xx-large;}
+    100% {color:red; opacity:0; letter-spacing:40px; font-size:large;}
+}
+    @-webkit-keyframes myRT
+{
+	 0% {color:red; opacity:0; letter-spacing:0px; font-size:large;}
+    25% {color:yellow; opacity:1; letter-spacing:10px; font-size:large;}
+    50% {color:blue; opacity:0; letter-spacing:20px; font-size:x-large;}
+    75% {color:green; opacity:1; letter-spacing:30px; font-size:xx-large;}
+    100% {color:red; opacity:0; letter-spacing:40px; font-size:large;}
+	
+    /*0% {color:red; opacity:0; letter-spacing:0px;}
+    25% {color:yellow; opacity:1; letter-spacing:10px;}
+    50% {color:blue; opacity:0; letter-spacing:20px;}
+    75% {color:green; opacity:1; letter-spacing:30px;}
+    100% {color:red; opacity:0; letter-spacing:40px;}
+	*/
+}

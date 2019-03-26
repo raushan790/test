@@ -1,0 +1,336 @@
+﻿* {
+padding: 0; 
+margin: 1; 
+}
+body {
+	font: 11px Tahoma;
+	/*background-color: #F7F7E9;*/
+}
+h1 {
+    font: bold 32px Times;
+	color: #666;
+	text-align: center;
+	padding: 20px 0;    
+}
+#container {
+    width: 700px;
+    margin: 10px auto;     
+    position:relative;
+    background:#ddd;
+    -moz-border-radius: 4px;
+    border-radius: 15px; 
+    
+    color: rgba(0,0,0, .8);    
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.7); 
+    
+    /*text-shadow: 0 1px 0 #fff;
+    line-height: 1.5;
+    margin: 60px auto;
+	padding: 2em 1.5em;
+	*/
+}
+
+.mGrid { width: 100%; background-color: #fff; margin: 1px 0 1px 0; border: solid 1px #525252; border-collapse:collapse; }
+.mGrid td { padding: 2px; border: solid 1px #c1c1c1; color: #2D2D2D; height:15px; }
+.mGrid th { padding: 4px 2px; color: #fff; background: #424242 url(../Images/grd_head.png) repeat-x top; border-left: solid 1px #525252; font-size: 11px; }/*font-size: 1em;*/
+.mGrid .alt { background: #fcfcfc url(../Images/grd_alt.png) repeat-x top; }
+.mGrid .pgr {background: #424242 url(../Images/grd_pgr.png) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }   
+.mGrid .pgr a { color: #666; text-decoration: none; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+
+
+
+.mGridDynamic { width: 100%; background-color: #fff; margin: 5px 0 5px 0; border: solid 1px #525252; border-collapse:collapse;margin:0; }
+.mGridDynamic input { padding: 2px; color: #717171; height:15px;margin:0; }
+.mGridDynamic th { padding: 4px 2px; color: #fff; background: #424242 url(../Images/grd_head.png) repeat-x top; border-left: solid 1px #525252; font-size: 11px;margin:0; }/*font-size: 1em;*/
+.mGridDynamic .alt { background: #fcfcfc url(../Images/grd_alt.png) repeat-x top;margin:0; }
+.mGridDynamic .pgr {background: #424242 url(../Images/grd_pgr.png) repeat-x top;margin:0; }
+.mGridDynamic .pgr table { margin: 5px 0; }
+.mGridDynamic .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; margin:0;line-height: 12px; }   
+.mGridDynamic .pgr a { color: #666; text-decoration: none;margin:0; }
+.mGridDynamic .pgr a:hover { color: #000; text-decoration: none;margin:0; }
+
+
+  /**************************************/
+.divCircle 
+{        	        	
+      
+    position:relative; 
+    /*background:#fff url(../Images/j1.gif) repeat-x;*/
+    -moz-border-radius: 5px;
+    border-radius: 10px;        	
+    padding: 1em 1.5em; 
+   /* color: rgba(0,0,0, .8); */
+    line-height: 1;
+    font-size:11px; 
+    border-radius:5px auto;
+	-moz-border-radius:5px auto;
+	-webkit-border-radius:5px auto;
+	box-shadow: 0px 0px 15px  rgba(255,184,77,0.7); 
+	-moz-box-shadow:0px 0px 15px  rgba(255,184,77,0.7); 
+	-webkit-box-shadow:0px 0px 15px  rgba(255,184,77,0.7); 
+	/*#7bc1f7      123,193,247
+	#e5f3fd  229,243,253
+	#5687ad 86,135,173
+
+	Blue one -- 51,153,245
+
+	#f8B64B   248,182,75
+
+	#FFB84D 255,184,77
+
+
+	*/
+}   
+.divInnerCircle 
+{        	        	
+      
+    position:relative;  
+    background:transparent;
+    -moz-border-radius: 5px;
+    border-radius: 5px;        	
+    padding: 1em 1.5em; 
+   /* color: rgba(0,0,0, .8); */
+    line-height: 1;  
+     border-radius: 2px auto;
+	-moz-border-radius: 2px auto;
+	-webkit-border-radius: 2px auto;
+	box-shadow: 0px 0px 10px  rgba(255,184,77,0.7);  
+	-moz-box-shadow: 0px 0px 10px  rgba(255,184,77,0.7);   
+	-webkit-box-shadow: 0px 0px 10px  rgba(255,184,77,0.7);   
+}  
+        
+input.MyTextBox 
+{
+	border:1px solid #c4c4c4;
+	width:180px;
+	height:12px;
+	font-size:11px;
+	padding:2px 2px 2px 2px;
+	border-radius:4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	box-shadow: 0px 0px 8px #d9d9d9;
+	-moz-box-shadow:0px 0px 8px #d9d9d9;
+	-webkit-box-shadow:0px 0px 8px #d9d9d9;
+} 
+input.MyTextBox:focus
+{
+	outline:none;
+	border:1px solid #ffb84d;
+	box-shadow:0px 0px 8px #ffb84d;
+	-moz-box-shadow::0px 0px 8px #ffb84d;
+	-webkit-box-shadow::0px 0px 8px #ffb84d;
+}
+ 
+ .MyTableHeader 
+{ 	
+	FONT-FAMILY: arial;
+	height:20px;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+	border:1px;
+    border-color: #8CDAFF;
+    background: url(../Images/grd_head.png) repeat;
+    text-align:center;
+	COLOR:#fff; 
+}
+.MyTableBorder
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:green;
+}
+textarea.MyTextBox 
+{
+	border:1px solid #c4c4c4;
+	font-size:11px;
+	padding:2px 2px 2px 2px;
+	border-radius:4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	box-shadow: 0px 0px 8px #d9d9d9;
+	-moz-box-shadow:0px 0px 8px #d9d9d9;
+	-webkit-box-shadow:0px 0px 8px #d9d9d9;
+	
+} 
+textarea.MyTextBox:focus
+{
+	outline:none;
+	border:1px solid #ffb84d;
+	box-shadow:0px 0px 8px #ffb84d;
+	-moz-box-shadow::0px 0px 8px #ffb84d;
+	-webkit-box-shadow::0px 0px 8px #ffb84d; 
+}
+ 
+ select.MyTextBox 
+{
+	border:1px solid #c4c4c4;
+	width:180px; 
+	font-size:11px;
+	padding:1px 1px 1px 1px;
+	border-radius:4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	box-shadow: 0px 0px 4px #d9d9d9;
+	-moz-box-shadow:0px 0px 4px #d9d9d9;
+	-webkit-box-shadow:0px 0px 4px #d9d9d9;
+} 
+select.MyTextBox:focus
+{
+	outline:none;
+	border:1px solid #ffb84d;
+	box-shadow:0px 0px 8px #ffb84d;
+	-moz-box-shadow::0px 0px 8px #ffb84d;
+	-webkit-box-shadow::0px 0px 8px #ffb84d;
+}
+.MyLabelHeader
+{
+	font-size: 9pt;
+	font-family: Arial;
+}
+ 
+   /* *************************************/
+.divParentLogin
+{        	        	
+    position:relative; 
+    background:#fff url(../Images/ParentLog.gif) repeat-x;
+    -moz-border-radius: 5px;
+    border-radius: 10px;    
+    font-size:11px;    	
+    padding: 1em 1.5em;  
+    line-height: 1;
+    font-size:11px; 
+    border-radius:5px auto;
+    -moz-border-radius:5px auto;
+    -webkit-border-radius:5px auto;
+    box-shadow: 0px 0px 15px  rgba(10,150,0,0.7); 
+    -moz-box-shadow:0px 0px 15px  rgba(10,150,0,0.7); 
+    -webkit-box-shadow:0px 0px 15px  rgba(10,150,0,0.7); 
+}   
+.divInnerParentLogin 
+{        	        	
+      
+    position:relative;
+    background:#ceddc0;
+    font-size:11px;
+    -moz-border-radius: 2px;
+    border-radius: 5px;        	
+    padding: .5em .9em; 
+    color: rgba(0,0,0, .8); 
+    line-height: 1;
+    margin: 0px auto;
+    box-shadow: 1px 1px 15px rgba(10,150,0,0.7);
+    -webkit-border-radius: 2px auto;
+    box-shadow: 0px 0px 10px  rgba(10,150,0,0.7);  
+    -moz-box-shadow: 0px 0px 10px  rgba(10,150,0,0.7);   
+    -webkit-box-shadow: 0px 0px 10px  rgba(10,150,0,0.7);  
+}   
+.ParentLoginImage
+{
+    background: url(../Images/ParentLog.gif) repeat;
+}
+input.MyButtonLogin
+{
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #ceddc0 100%); 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #ceddc0 100%); 
+	background-image: -o-linear-gradient(top,#FFFFFF 0%,#ceddc0 100%); 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1,#ceddc0));
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #ceddc0 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #ceddc0 100%); 
+	color:Green;	
+	font-size :8pt;	
+	width:72px;
+	height:20px;
+	FONT-WEIGHT: bold;
+	text-align:center; 
+    -moz-border-radius: 5px;
+   /* -moz-box-shadow: 0px 0px 15px  rgba(10,150,0,0.7); */
+    border-radius: 5px;
+  /*  box-shadow: 0px 0px 15px  rgba(10,150,0,0.7);      	
+    transition: width 1s, height 1s, box-shadow 1s, color 1s;
+    -webkit-transition: width 1s, height 1s,  box-shadow 1s, color 1s;
+    -o-transition-property: width 1s, height 1s, box-shadow 1s, color 1s;
+    -o-transition-duration:1s; */      
+}
+input.MyButtonLogin:hover
+{
+	-moz-border-radius: 5px;
+    -moz-box-shadow: 0px 0px 15px  rgba(10,150,0,0.7); 
+    border-radius: 5px;
+    box-shadow:0px 0px 15px  rgba(10,150,0,0.7); 
+    width: 72px;
+    height: 20px;
+    color:Red;
+}
+input.MyButtonLogin:disabled
+{
+	color:Gray;
+}
+input.MyTextBoxLogin 
+{
+	border:1px solid #c4c4c4;
+	width:180px;
+	height:12px;
+	font-size:11px;
+	padding:2px 2px 2px 2px;
+	border-radius:4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	box-shadow: 0px 0px 8px #d9d9d9;
+	-moz-box-shadow:0px 0px 8px #d9d9d9;
+	-webkit-box-shadow:0px 0px 8px #d9d9d9;
+} 
+input.MyTextBoxLogin:focus
+{
+	outline:none;
+	border:1px solid green;
+	box-shadow:0px 0px 6px green;
+	-moz-box-shadow::0px 0px 6px green;
+	-webkit-box-shadow::0px 0px 6px green;
+}
+ textarea.MyTextBoxLogin 
+{
+	border:1px solid #c4c4c4;
+	font-size:11px;
+	padding:2px 2px 2px 2px;
+	border-radius:4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	box-shadow: 0px 0px 8px #d9d9d9;
+	-moz-box-shadow:0px 0px 8px #d9d9d9;
+	-webkit-box-shadow:0px 0px 8px #d9d9d9;
+	
+} 
+textarea.MyTextBoxLogin:focus
+{
+	outline:none;
+	border:1px solid green;
+	box-shadow:0px 0px 8px green;
+	-moz-box-shadow::0px 0px 8px green;
+	-webkit-box-shadow::0px 0px 8px green; 
+}
+select.MyTextBoxLogin 
+{
+	border:1px solid #c4c4c4;
+	width:180px; 
+	font-size:11px;
+	padding:1px 1px 1px 1px;
+	border-radius:4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	box-shadow: 0px 0px 4px #d9d9d9;
+	-moz-box-shadow:0px 0px 4px #d9d9d9;
+	-webkit-box-shadow:0px 0px 4px #d9d9d9;
+} 
+select.MyTextBoxLogin:focus
+{
+	outline:none;
+	border:1px solid green;
+	box-shadow:0px 0px 8px green;
+	-moz-box-shadow::0px 0px 8px green;
+	-webkit-box-shadow::0px 0px 8px green; 
+}
+/* *************************************/

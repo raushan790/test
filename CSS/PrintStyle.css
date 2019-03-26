@@ -1,0 +1,13 @@
+﻿
+.contentPrint {
+	FONT-SIZE: 8pt; COLOR: Black; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.PrintGridHeader
+{
+	background: url(../Images/tab_inactive.jpg) repeat;
+}
+.PrintGridFooter
+{
+	background: url(../Images/tab_inactive.jpg) repeat;
+	font-weight:bold;
+}

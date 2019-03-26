@@ -1,0 +1,60 @@
+﻿.MenuBar {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.StaticMenuItem {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #1999cf;    
+    font: 9pt calibri;    
+    margin: auto;
+    vertical-align: middle;
+    background-repeat: repeat-x;
+    height: 20px;
+    text-align: center;
+    color: white; 
+}
+
+.StaticMenuItemStyle {
+    color: #ffffff;
+    padding: 3px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.StaticHoverStyle {
+    background-color: #b6e390;
+    color: #5f5f5f;
+}
+
+.StaticSelectedStyle {
+    background-color: #ffe99f;
+    color: #5f5f5f;
+}
+
+.DynamicMenuItemStyle {
+    background-color: #bdeafe;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    font: 8pt calibri;
+    margin: auto;
+    border-left: 0px solid #c1c1c1;
+    border-right: 0px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    border-spacing: 0px;
+    vertical-align: middle;
+    background-repeat: repeat-x;
+    height: 5px;
+    text-align: left;
+    color: #5f5f5f;
+    padding: 5px;
+}
+
+.DynamicHoverStyle {
+    background-color: #eca74c;
+    color: #ffffff;
+}
